@@ -1,8 +1,22 @@
-describe('Pruebas en el archivo demo.test.js',()=>{
-    test('deben de ser igules los string',()=>{
-        const mensaje= 'Hola mundo';
-        const mensaje2="Hola mundo";
-        expect(mensaje).toBe(mensaje2);
-    })
 
-})
+
+describe('Pruebas en el archivo demo.test.js', () => {
+    
+    
+    test( 'deben de ser iguales los string', () => {
+    
+        // 1. inicialización
+        const mensaje = 'Hola Mundo';
+    
+        // 2. estímulo
+        const mensaje2 = `Hola Mundo`;
+    
+        // 3. Observar el comportamiento
+        expect( mensaje ).toBe( mensaje2 ); // ===
+    
+    })
+    
+
+});
+
+
